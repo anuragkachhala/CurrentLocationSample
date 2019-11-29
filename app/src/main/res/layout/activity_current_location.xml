@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CurrentLocationActivity">
+
+    <Button
+        android:id="@+id/btn_start_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start location"
+        />
+
+    <Button
+        android:id="@+id/btn_stop_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop location"/>
+
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" location"/>
+
+    <TextView
+        android:id="@+id/tv_last_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="last location update on"/>
+
+</LinearLayout>
